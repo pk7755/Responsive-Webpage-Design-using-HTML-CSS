@@ -1,0 +1,919 @@
+*{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+     
+}
+body{
+     font-family: Lato;
+     background-color:#fcfcfc;
+}
+.container{
+     padding: 2.5vw 5vw;
+}
+header{
+     background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+     padding-bottom: 7.5vw;
+     background-repeat: no-repeat;
+     background-size: 110%;
+     background-position:-6.67vw center;       
+}
+nav{
+     display: flex;
+     justify-content: space-between;
+     font-size: 1.1666vw;
+     font-weight: 400;
+}
+nav div a{
+     color: white;
+     text-decoration: none;
+}
+
+nav ul{
+     display: flex;
+     gap: 2.5vw;
+     list-style-type: none;
+     font-size: 1.5vw;     
+}
+nav ul li a{
+     color: white;
+     text-decoration: none;  
+     text-align: justify; 
+}
+header section article div{
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     align-items: center;
+     color: white;
+}
+h1{
+     font-size: 7.5vw;
+     font-style: italic;
+     font-weight: 900;
+     position: relative;
+     top: 1.6666vw;
+}
+p{
+     font-size: 38px;
+     font-weight: 500;
+     padding: 33px;
+}
+form{    
+     border-radius: 0.83333vw;
+     width: 62.5vw;
+     height: 4.1666vw;
+     background-color: white;    
+}
+form fieldset{
+
+     border: none; 
+     padding: 1.166666vw 0.833333vw;     
+}
+form input{
+     font-size: 1.25vw;
+     border: none; 
+     outline: none;  
+}
+form fieldset label img{
+     height: 1.25vw;
+     width: 1.24vw;
+     
+}
+form input:first-of-type{
+     border-right: 1px solid rgb(167, 165, 165) !important;
+}
+form input:last-of-type{
+     width: 60%;
+}
+.hero-block{
+     padding-top: 2.5vw;
+}
+.hero-block article{
+     display: flex;
+     gap: 1.6666vw;
+     justify-content: center;
+}
+.card{
+     width: 29.1666667vw;
+     height: 20.83333vw;
+     border-radius: 1.25vw;
+     border: 1px solid rgb(214, 213, 213);
+     transition-duration: 0.35s;    
+}
+.card div{   
+     background-repeat: no-repeat;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+     width: 29.166vw;  
+     height: 14.166vw;    
+}
+.card1 div{
+     background-image: url(https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*);
+     background-position-y: -6.66667vw;
+}
+.card2 div{
+     background-image: url(https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*);
+     background-position-y: -8.333vw;
+}
+.card3 div{
+     background-image: url(https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*);
+     background-position-y: -8.333vw;
+}
+.card h3,.card p{
+     padding-left: 1.667vw;   
+     
+     
+}
+.card h3{
+     padding-top: 0.83333vw;
+     color: rgb(48, 48, 48);
+     font-weight: 400;
+}
+.card p{
+     position: relative;
+     top: -25px;
+     font-size: 1.3333vw;
+     color: rgb(105, 102, 102);
+     font-weight: 400;
+}
+.card:hover{
+     transform: scale(1.05);
+}
+.collections>div{
+     font-size: 2.91vw;
+     font-weight: 500;
+     
+}
+.collections article{
+     /* background-color: red; */
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     font-size: 1.58vw;
+     font-weight: 300;
+}
+.collections article  div a:last-child{
+     text-decoration: none;
+     color: red;
+}
+.collections2 article{
+     display: flex;
+     flex-direction: row;
+     gap: 0.833vw;   
+}
+.card4{
+     width: 22vw;
+     height: 27.75vw;
+     border-radius: .8333vw;
+     background-size: 22.5vw 27.5vw;
+     background-repeat: no-repeat;  
+}
+.collections2 article a{
+     text-decoration: none;
+     color: white;
+}
+.card5{
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(https://b.zmtcdn.com/data/collections/072ec5cf5c95503ab503edcc099f6add_1675252614.jpg?output-format=webp);
+}
+.card6{
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(https://b.zmtcdn.com/data/collections/8dd5adbf91d78c8d11796c6b230539ef_1674568824.jpg?output-format=webp);
+}
+.card7{
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(https://b.zmtcdn.com/data/collections/fd37afa577ae46c537d455f9dc3365ba_1674569019.jpg); 
+}
+.card8{
+     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%),url(https://b.zmtcdn.com/data/collections/a247de0031551d916cbce6a8401c501f_1674569722.jpg);
+     
+}
+.card4  div{
+     position: relative;
+     top: 22.91vw;
+     font-size: 1.5vw;
+     padding-left: 1.5vw;     
+}
+.card4 div span{
+     font-size: 1.0833vw;
+}
+.popular_locality{
+     padding-top: 10vw;
+     padding-bottom: 10vw;
+}
+.popular_locality-article2{
+     display: flex;
+     flex-flow: row wrap;
+     gap: 10px;
+}
+.popular_locality-article2 a{
+     text-decoration: none;
+}
+.popular_locality>div{
+     font-size: 3.1666vw;
+     padding-bottom: 2.5vw;
+     color:#363636;
+}
+.popular_locality-article{
+     display: flex;
+     border: 1px solid #e8e8e8;
+     border-radius: .833333vw;
+     padding: 0.8333vw 1.6666vw;
+     font-size: 1.4vw;
+     text-align: justify;
+     color:#363636;
+     height: 6.666vw;
+     width: 29vw;
+     justify-content: space-between;
+     align-items: center;
+}
+.popular_locality-article:hover{
+     box-shadow: 1px 1px 1px 1px #eeecec;;
+}
+.popular_locality-article div>div{
+     color: #5e5d5d;
+     font-size: 1.333vw;
+     padding-top: .8333vw;
+}
+.Explore_option a{
+     text-decoration: none;
+}
+.get_zomato_app{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 40vw;
+     background-color: #fffbf7;
+     gap:3,333vw;
+     
+}
+.mobile_img img{
+     height:25vw;
+}
+.get_zomato_app_form{
+   width: 37.5vw;  
+   display: flex;
+   flex-direction: column;
+   gap: 2.0833vw;
+}
+.get_zomato_app_form-div1{
+   font-size: 3.5vw;
+   font-weight: 500; 
+   color: #1c1c1c;
+   text-align: justify; 
+}
+.get_zomato_app_form :nth-child(2){
+     text-align: justify;
+     font-size: 1.5vw;
+     text-align: justify;
+     font-weight: 300;
+}
+.get_zomato_app_form-radio{
+     display: flex;
+     gap: 2.5vw;
+     align-items: center; 
+     font-size: 1.66vw;  
+}
+.get_zomato_app_form-radio div input{
+     accent-color: #ef4f5f;
+}
+.get_zomato_app_form :nth-child(5){
+    color: #aaaaa9;
+}
+.get_zomato_app-link{
+     display: flex;
+     gap: .8333vw;   
+}
+.get_zomato_app-link a{
+     text-decoration: none;
+}
+.get_zomato_app-link input{
+     width: 25vw;
+     border-radius: .666666vw;
+     outline: none;
+     border: 1px solid rgb(233, 233, 233);
+     padding: 0px 2.5vw;
+     font-size: 1.666vw;
+     color: #363636;
+}
+.get_zomato_app-link div{
+     border: 1px solid #ef4f5f;
+     background-color: #ef4f5f;
+     color: white !important;
+     height: 4.1666vw;
+     border-radius: 8px;
+     font-size: 1.4166vw !important;
+     padding:.91666vw 1.5vw;
+     width: 12.5vw;
+     font-weight: 300 !important;
+}
+.get_zomato_app-icons{
+     display: flex;
+     gap: 1.6666vw;
+     justify-content: flex-start;
+     align-items: center;    
+}
+.Explore_option-div{
+     border: 1px solid rgb(233, 233, 233);
+     border-radius: 8px;
+     margin: 10px;
+     height: 70px;
+     background-color: #ffffff;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.div1{
+     font-size: 30px;
+     font-weight: 500;
+     color: #1c1c1c;
+     padding-bottom: 20px;
+}
+
+
+
+.Explore_option-div div{
+     padding: 0px 30px;
+     font-size: 22px;
+     color: #1c1c1c;
+}
+
+.zomato article {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     
+}
+.zomato{
+     background-color: #f8f8f8;   
+}
+.zomato article div:first-child{
+     font-size: 40px;
+     font-weight: 900;
+     font-style: italic;
+}
+#india{
+     display: flex;
+     justify-content: flex-end;
+     flex-direction: row;
+     gap: 40px;   
+     
+}
+#india div{
+     border: 1px solid #5e5d5d; 
+     border-radius: 8px;
+     font-size: 20px;
+     height: 40px;
+     width: 140px;
+     background-color: white;
+     padding-left: 8px;
+     display: flex;
+     justify-content: space-between;
+     font-weight: 400;
+     font-style:normal;
+     align-items: center;
+}
+#india a div img{
+     height: 25px;
+}
+#india a{
+     text-decoration: none;
+     color: #363636;
+     
+}
+.zomato1{
+     background-color: #f8f8f8;   
+}
+
+.zomato1 article{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+    
+}
+.zomato1 article ul{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+.zomato1 article ul li a{
+     color: rgb(73, 73, 73);
+     font-weight: 300;
+     text-decoration: none;
+     font-size: 15px;
+}
+.zomato1 article ul li::marker{
+     content: none;
+
+}
+.zomato1 article ul li a:hover{
+     color: black;
+
+}
+
+
+footer{
+     height: 100px;
+     background-color: #f8f8f8;
+     color: rgb(73, 73, 73);
+}
+footer div{
+     height: 1px;
+     background-color: grey;    
+}
+footer p{
+     padding:0;
+     font-size: 14px;
+     font-weight: 300;
+}
+/* icons */
+.fa:hover {
+     opacity: 0.9;
+ }
+
+
+ .fa {
+     height: 25px;
+     width: 25px;
+     text-decoration: none;
+     border-radius: 50%;
+     color: white !important;
+     background: black;
+     padding: 4px 5px;
+
+ }
+
+
+ /* media Query */
+ @media screen and (min-width:468px) and (max-width:768px){
+     .container{
+          padding: 2vw 5vw;
+     }
+     header{
+          padding-bottom: 2.5vw;
+          background-position: 0px center;    
+     }
+     nav{
+          font-size: 2vw;
+     }nav ul{
+          gap: 2vw;
+          font-size: 2vw;
+     }
+     h1{
+          font-size: 9vw;
+          top: 2vw;
+     }
+     p{
+          font-size: 4vw;
+          padding: 3vw;
+     }
+    
+     form{
+          border-radius: 1.5vw;
+          width:90vw;
+          height: 8vw;
+     }
+     form input{
+          font-size: 1.9vw;
+       
+     }
+     form input:last-of-type{
+          width: 60%;
+          
+     }
+     .hero-block{
+          padding-top: 5vw;
+     }
+     .hero-block article{
+          gap: 3vw;
+          flex-flow: row wrap;
+          align-items: center;
+     }
+     .card{
+          width:40vw;
+          height: 31vw;
+          border-radius:2vw;
+          border: 0.4vw solid rgb(214, 213, 213);
+          transition-duration: 0.35s;    
+     }
+     .card div{   
+          background-repeat: no-repeat;
+          background-size: 40vw 80vw;
+          border-top-left-radius: 2vw;
+          border-top-right-radius: 2vw;
+          width: 40vw;  
+          height: 20vw;    
+     }
+     .card h3,.card p{
+          padding-left: 3vw;      
+     }
+     .card h3{
+          padding-top: 1vw;
+          font-size: 3vw;
+     }
+     .card p{
+          top:-2.5vw;
+          font-size: 1.8vw;
+     }
+     .card:hover{
+          transform: scale(1.05);
+     }
+     .collections{
+          padding: 8vw 10vw;
+     }
+     .collections>div{
+          font-size: 6vw;   
+     }
+     .collections article{
+          font-size: 3vw;
+     }
+     .collections2{
+          padding: 0vw 10vw;
+     }
+     .collections2 article{
+          flex-flow: row wrap;
+          align-items: center;
+          gap: 5vw;   
+     }
+     .card4{
+          width: 37vw;
+          height: 55vw;
+          border-radius: 2vw;
+          background-size: 37vw 55vw;  
+     }
+     .card4  div{
+          top: 40vw;
+          font-size: 2.5vw;
+          padding-left: 2vw;     
+     }
+     .card4 div span{
+          font-size: 2vw;
+     }
+     .popular_locality{
+          padding: 3vw 10vw;
+     }
+     .popular_locality>div{
+          font-size: 5vw;
+          padding-bottom: 3vw;
+     }
+     .popular_locality-article{
+          border-radius: 1.5vw;
+          padding: 1vw 2vw;
+          font-size: 3vw;
+          height: 10vw;
+          width: 80vw;
+     }
+     .popular_locality-article:hover{
+          box-shadow: 1px 1px 1px 1px #eeecec;;
+     }
+     .popular_locality-article div>div{
+          font-size:2vw;
+          padding-top: 1vw;
+     }
+     .get_zomato_app{
+          height: 100vw;
+          gap:0vw;        
+     }
+     .get_zomato_app_form{
+        width: 40vw;  
+        gap: 2vw;
+     }
+     .mobile_img img{
+          height: 40vw;
+     }
+     .get_zomato_app_form-div1{
+        font-size: 4.5vw; 
+     }
+     .get_zomato_app_form :nth-child(2){
+          font-size: 3vw;
+     }
+     .get_zomato_app_form-radio{
+          gap: 2vw;
+          font-size: 3vw;  
+     }
+     .get_zomato_app-link{
+          gap: 1vw;   
+     }
+     .get_zomato_app-link input{
+          width: 30vw;
+          padding: 0px 3vw;
+          font-size: 3vw;
+     }
+     .get_zomato_app-link div{
+          height: 6vw;
+          border-radius: 1vw;
+          font-size: 2.5vw !important;
+          padding:1.1vw 1vw;
+          width: 20vw;
+     }
+     .get_zomato_app-icons{
+          flex-flow: row wrap;
+          gap: 1vw;    
+     }
+     .get_zomato_app-icons a img{
+          height: 7vw;
+     }
+     .Explore_option{
+          padding: 0vw 10vw;
+     }
+     .div1{
+          font-size: 5vw;
+          padding-bottom: 1vw;
+     }
+     .Explore_option-div{
+          height: 9vw;
+     }
+     .Explore_option-div div{
+          padding: 0 5vw;
+          font-size: 3vw;
+     }
+     .zomato{
+          background-color: #f8f8f8;   
+     }
+     .zomato article div:first-child{
+          font-size: 7vw;
+     }
+     #india{
+          gap: 4vw;       
+     }
+     #india a div img{
+          height: 3vw;
+     }
+     #india div{
+          border-radius: 1vw;
+          font-size: 3vw;
+          height: 7vw;
+          width: 20vw;
+     }
+    .zomato1 article{
+          flex-flow: row wrap; 
+     }
+     .zomato1 article ul{
+          display: flex;
+          flex-direction: column;
+          gap: 2vw;
+     }
+     .zomato1 article ul li a{
+         font-size: 2vw;
+     }
+    
+     footer{
+          height: 16vw;
+     }
+     footer div{
+          height: 0.1vw;  
+     }
+     footer p{
+          padding:0;
+          font-size: 2vw;
+     }
+     .fa {
+          height: 20px;
+          width: 20px;
+          padding: 4px 5px;
+     
+      }   
+ }
+ @media screen and (min-width:320px) and (max-width:468px){
+     .container{
+          padding: 2vw 5vw;
+     }
+     header{
+          padding-bottom: 2.5vw;
+          background-position: 0px center;
+
+          
+     }
+     nav{
+          font-size: 3vw;
+     }nav ul{
+          flex-direction: column;
+          gap: 1vw;
+          font-size: 3vw;
+     }
+     h1{
+          font-size: 9vw;
+          top: 2vw;
+     }
+     p{
+          font-size: 4vw;
+          padding: 3vw;
+     }
+    
+     form{
+          border-radius: 1.5vw;
+          width:90vw;
+          height: 8vw;
+     }
+     form fieldset{
+          padding: 1vw 2vw; 
+     }
+     form fieldset label img{
+          width: 3vw;
+          height: 3vw;   
+     }
+     form input{
+          font-size: 1.9vw;
+       
+     }
+     form input:last-of-type{
+          width: 40%;
+          
+     }
+     .hero-block{
+          padding-top: 5vw;
+     }
+     .hero-block article{
+          gap: 4vw;
+          flex-flow: row wrap;
+          align-items: center;
+     }
+     .card{
+          width:40vw;
+          height: 31vw;
+          border-radius:2vw;
+          border: 0.4vw solid rgb(214, 213, 213);
+          transition-duration: 0.35s;    
+     }
+     .card div{   
+          background-repeat: no-repeat;
+          background-size: 40vw 80vw;
+          border-top-left-radius: 2vw;
+          border-top-right-radius: 2vw;
+          width: 40vw;  
+          height: 20vw;    
+     }
+     .card h3,.card p{
+          padding-left: 3vw;      
+     }
+     .card h3{
+          padding-top: 1vw;
+          font-size: 4vw;
+     }
+     .card p{
+          top:-2.5vw;
+          font-size: 2vw;
+     }
+     .card:hover{
+          transform: scale(1.05);
+     }
+     .collections{
+          padding: 8vw 10vw;
+     }
+     .collections>div{
+          font-size: 6vw;   
+     }
+     .collections article{
+          font-size: 3vw;
+     }
+     .collections2{
+          padding: 0vw 10vw;
+     }
+     .collections2 article{
+          flex-flow: row wrap;
+          align-items: center;
+          gap: 5vw;   
+     }
+     .card4{
+          width: 37vw;
+          height: 55vw;
+          border-radius: 2vw;
+          background-size: 37vw 55vw;  
+     }
+     .card4  div{
+          top: 47vw;
+          font-size: 2.5vw;
+          padding-left: 2vw;     
+     }
+     .card4 div span{
+          font-size: 2vw;
+     }
+     .popular_locality{
+          padding: 3vw 10vw;
+     }
+     .popular_locality>div{
+          font-size: 5vw;
+          padding-bottom: 3vw;
+     }
+     .popular_locality-article{
+          border-radius: 1.5vw;
+          padding: 1vw 2vw;
+          font-size: 3vw;
+          height: 10vw;
+          width: 80vw;
+     }
+     .popular_locality-article:hover{
+          box-shadow: 1px 1px 1px 1px #eeecec;;
+     }
+     .popular_locality-article div>div{
+          font-size:2vw;
+          padding-top: 1vw;
+     }
+     .get_zomato_app{
+          height: 100vw;
+          gap:0vw;        
+     }
+     .get_zomato_app_form{
+        width: 40vw;  
+        gap: 2vw;
+     }
+     .mobile_img img{
+          height: 40vw;
+     }
+     .get_zomato_app_form-div1{
+        font-size: 4.5vw; 
+     }
+     .get_zomato_app_form :nth-child(2){
+          font-size: 3vw;
+     }
+     .get_zomato_app_form-radio{
+          gap: 2vw;
+          font-size: 3vw;  
+     }
+     .get_zomato_app-link{
+          gap: 1vw;   
+     }
+     .get_zomato_app-link input{
+          width: 30vw;
+          padding: 0px 3vw;
+          font-size: 3vw;
+     }
+     .get_zomato_app-link div{
+          height: 6vw;
+          border-radius: 1vw;
+          font-size: 2.5vw !important;
+          padding:1.1vw 1vw;
+          width: 20vw;
+     }
+     .get_zomato_app-icons{
+          flex-flow: row wrap;
+          gap: 1vw;    
+     }
+     .get_zomato_app-icons a img{
+          height: 7vw;
+     }
+     .Explore_option{
+          padding: 0vw 10vw;
+     }
+     .div1{
+          font-size: 5vw;
+          padding-bottom: 1vw;
+     }
+     .Explore_option-div{
+          height: 9vw;
+     }
+     .Explore_option-div div{
+          padding: 0 5vw;
+          font-size: 3vw;
+     }
+     .zomato{
+          background-color: #f8f8f8;   
+     }
+     .zomato article div:first-child{
+          font-size: 7vw;
+     }
+     #india{
+          gap: 4vw;       
+     }
+     #india a div img{
+          height: 3vw;
+     }
+     #india div{
+          border-radius: 1vw;
+          font-size: 3vw;
+          height: 7vw;
+          width: 25vw;
+     }
+    .zomato1 article{
+          flex-flow: row wrap; 
+     }
+     .zomato1 article ul{
+          display: flex;
+          flex-direction: column;
+          gap: 2vw;
+     }
+     .zomato1 article ul li a{
+         font-size: 3vw;
+     }
+    
+     footer{
+          height: 100px;
+          background-color: #f8f8f8;
+          color: rgb(73, 73, 73);
+     }
+     footer div{
+          height: 1px;
+          background-color: grey;    
+     }
+     footer p{
+          padding:0;
+          font-size: 3vw;
+     }  
+     .fa {
+          height: 20px;
+          width: 20px;
+          padding: 4px 5px;
+     
+      }   
+ }
+
+
